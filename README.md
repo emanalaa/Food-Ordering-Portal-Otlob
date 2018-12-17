@@ -1,2 +1,2 @@
-# Food-Ordering-Portal-Otlob-
+# Food-Ordering-Portal (Otlob)
 Object Oriented Programming Course's Project 
