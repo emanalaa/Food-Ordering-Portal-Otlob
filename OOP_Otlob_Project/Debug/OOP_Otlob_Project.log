@@ -1,0 +1,33 @@
+﻿Build started 12/16/2018 9:36:00 PM.
+     1>Project "C:\Users\NEW TECH\Documents\Visual Studio 2013\Projects\OOP_Otlob_Project(Qotb)\OOP_Otlob_Project(Qotb)\OOP_Otlob_Project\OOP_Otlob_Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\NEW TECH\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\NEW TECH\Documents\Visual Studio 2013\Projects\OOP_Otlob_Project(Qotb)\OOP_Otlob_Project(Qotb)\Debug\OOP_Otlob_Project.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\OOP_Otlob_Project.CategoryMenu.resources /ASSEMBLYRESOURCE:Debug\OOP_Otlob_Project.Foods.resources /ASSEMBLYRESOURCE:Debug\OOP_Otlob_Project.Home.resources /ASSEMBLYRESOURCE:Debug\OOP_Otlob_Project.Login_signup.resources /ASSEMBLYRESOURCE:Debug\OOP_Otlob_Project.OrderUC.resources /ASSEMBLYRESOURCE:Debug\OOP_Otlob_Project.PayByCredit.resources /ASSEMBLYRESOURCE:Debug\OOP_Otlob_Project.PlaceOrder.resources /ASSEMBLYRESOURCE:Debug\OOP_Otlob_Project.PlaceOrderUC.resources /ASSEMBLYRESOURCE:Debug\OOP_Otlob_Project.ResturantMenu.resources /ASSEMBLYRESOURCE:Debug\OOP_Otlob_Project.ResturantsUC.resources /ASSEMBLYRESOURCE:Debug\OOP_Otlob_Project.ReviewOrder.resources /ASSEMBLYRESOURCE:Debug\OOP_Otlob_Project.ReviewOrderUC.resources /ASSEMBLYRESOURCE:Debug\OOP_Otlob_Project.ReviewsUC.resources /ASSEMBLYRESOURCE:Debug\OOP_Otlob_Project.ShowResturants.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\NEW TECH\Documents\Visual Studio 2013\Projects\OOP_Otlob_Project(Qotb)\OOP_Otlob_Project(Qotb)\Debug\OOP_Otlob_Project.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Foods.obj
+         Debug\Globals.obj
+         Debug\Home.obj
+         Debug\Login_signup.obj
+         Debug\manger.obj
+         Debug\MyAccount.obj
+         Debug\Order.obj
+         Debug\OrderUC.obj
+         Debug\PayByCredit.obj
+         Debug\Person.obj
+         Debug\PlaceOrder.obj
+         Debug\PlaceOrderUC.obj
+         Debug\Resturant.obj
+         Debug\CategoryMenu.obj
+         Debug\ResturantsMenu.obj
+         Debug\ResturantsUC.obj
+         Debug\ReviewOrder.obj
+         Debug\ReviewOrderUC.obj
+         Debug\ReviewsUC.obj
+         Debug\ShowResturants.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         OOP_Otlob_Project.vcxproj -> C:\Users\NEW TECH\Documents\Visual Studio 2013\Projects\OOP_Otlob_Project(Qotb)\OOP_Otlob_Project(Qotb)\Debug\OOP_Otlob_Project.exe
+     1>Done Building Project "C:\Users\NEW TECH\Documents\Visual Studio 2013\Projects\OOP_Otlob_Project(Qotb)\OOP_Otlob_Project(Qotb)\OOP_Otlob_Project\OOP_Otlob_Project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.93

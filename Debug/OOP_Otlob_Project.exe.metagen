@@ -1,0 +1,98 @@
+  OOP_Otlob_Project.CategoryMenu.resources - Embedded, ContainedInManifestFile, 
+  OOP_Otlob_Project.Foods.resources - Embedded, ContainedInManifestFile, 
+  OOP_Otlob_Project.Home.resources - Embedded, ContainedInManifestFile, 
+  OOP_Otlob_Project.Login_signup.resources - Embedded, ContainedInManifestFile, 
+  OOP_Otlob_Project.OrderUC.resources - Embedded, ContainedInManifestFile, 
+  OOP_Otlob_Project.PayByCredit.resources - Embedded, ContainedInManifestFile, 
+  OOP_Otlob_Project.PlaceOrder.resources - Embedded, ContainedInManifestFile, 
+  OOP_Otlob_Project.PlaceOrderUC.resources - Embedded, ContainedInManifestFile, 
+  OOP_Otlob_Project.ResturantMenu.resources - Embedded, ContainedInManifestFile, 
+  OOP_Otlob_Project.ResturantsUC.resources - Embedded, ContainedInManifestFile, 
+  OOP_Otlob_Project.ReviewOrder.resources - Embedded, ContainedInManifestFile, 
+  OOP_Otlob_Project.ReviewOrderUC.resources - Embedded, ContainedInManifestFile, 
+  OOP_Otlob_Project.ReviewsUC.resources - Embedded, ContainedInManifestFile, 
+  OOP_Otlob_Project.ShowResturants.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly OOP_Otlob_Project, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Global.glo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form home : Public, Static
+    System.Windows.Forms.Form showresturant : Public, Static
+    System.Windows.Forms.Form Login_signup : Public, Static
+    System.Windows.Forms.Form Menus : Public, Static
+    System.Windows.Forms.Form Admin : Public, Static
+    System.Windows.Forms.Form MyAccount : Public, Static
+  Methods:
+    addOrder(String): PrivateScope, Public, Static, HideBySig
+    cancelOrder(String): PrivateScope, Public, Static, HideBySig
+    OrderOuantityChange(String, Int32): PrivateScope, Public, Static, HideBySig
+    FML(Order*): PrivateScope, Public, Static, HideBySig
+Class OOP_Otlob_Project.OrderUC: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 maximumQ : Public
+    System.Windows.Forms.NumericUpDown nUD_Quantity : Public
+Class OOP_Otlob_Project.Foods: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(Resturant*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOP_Otlob_Project.CategoryMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOP_Otlob_Project.ReviewOrderUC: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.NumericUpDown nUD_Quantity : Public
+Class OOP_Otlob_Project.PlaceOrderUC: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOP_Otlob_Project.PayByCredit: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOP_Otlob_Project.PlaceOrder: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOP_Otlob_Project.ReviewOrder: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOP_Otlob_Project.ReviewsUC: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOP_Otlob_Project.ResturantMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOP_Otlob_Project.ResturantsUC: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOP_Otlob_Project.ShowResturants: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ShowResturants_Load(Object, EventArgs): PrivateScope, Public, HideBySig
+Class OOP_Otlob_Project.Home: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOP_Otlob_Project.Login_signup: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOP_Otlob_Project.manger: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOP_Otlob_Project.MyAccount: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
